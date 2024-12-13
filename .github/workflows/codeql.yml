@@ -21,7 +21,7 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v2
         with:
-          languages: 'python' # Replace with your project's language(s)
+          languages: 'c-cpp' # Replace with your project's language(s)
           build: 'none'       # Disable the build step
 
       # Step 3: Perform CodeQL Analysis
